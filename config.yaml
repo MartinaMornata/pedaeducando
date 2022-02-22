@@ -1,4 +1,4 @@
-baseurl: pedaeducation.com
+baseurl: https://MartinaMornata.github.io/pedaeducando/
 languageCode: en-us
 theme: hugo-theme-stack
 paginate: 5
