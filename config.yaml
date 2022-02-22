@@ -42,8 +42,8 @@ params:
         subtitle: Sono una pedagogista di successo
         avatar:
             enabled: true
-            local: true
-            src: img/avatar.png
+            local: false
+            src: ./content/images/avatar.jpg
 
     article:
         math: false
