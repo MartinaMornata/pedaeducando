@@ -2,7 +2,7 @@ baseurl: https://MartinaMornata.github.io/pedaeducando/
 languageCode: en-us
 theme: hugo-theme-stack
 paginate: 5
-title: pedaeducation
+title: PedaEducation
 
 # Change it to your Disqus shortname before using
 # disqusShortname: hugo-theme-stack
@@ -26,12 +26,12 @@ params:
     mainSections:
         - post
     featuredImageField: image
-    rssFullContent: true
+    rssFullContent: false
     favicon:
 
     footer:
-        since: 2020
-        customText: Educando
+        since: 2018
+        # customText: Educando
 
     dateFormat:
         published: Jan 02, 2006
@@ -39,11 +39,11 @@ params:
 
     sidebar:
         emoji: ✨
-        subtitle: Educatrice e pedagogista in continua formazione
+        subtitle: Educatrice e Pedagogista in progettazione pedagogica nei servizi per i minori
         avatar:
             enabled: true
             local: true
-            src: img/avatar.jpg
+            src: img/avatar.jpeg
 
     article:
         math: false
@@ -134,7 +134,7 @@ params:
     widgets:
         enabled:
             - search
-            - archives
+            # - archives
             - tag-cloud
 
         archives:
@@ -180,8 +180,7 @@ menu:
           url: /
           weight: -100
           params:
-              ### For demonstration purpose, the home link will be open in a new tab
-              newTab: true
+              newTab: false
               icon: home
         
     social:
